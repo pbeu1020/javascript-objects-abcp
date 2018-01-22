@@ -1,7 +1,7 @@
 var playlist={'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes'};
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  artistName ='songTitle';
+  playlistartistName ='songTitle';
   return playlist;
 }
 
