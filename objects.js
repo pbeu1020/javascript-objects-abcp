@@ -22,7 +22,7 @@ describe('updatePlaylist(playlist, artistName, songTitle)', () => {
 */
 
 
-function removeFromPlaylist(playlistObject, artist) {
-  delete playlistObject.artist;
-  return playlistObject;
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName;
+  return playlist;
 }
